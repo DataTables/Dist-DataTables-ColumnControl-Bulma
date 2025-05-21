@@ -1,0 +1,18 @@
+{
+    "js": [
+        "js/columnControl.bulma.js",
+        "js/columnControl.bulma.min.js",
+        "js/columnControl.bulma.min.mjs",
+        "js/columnControl.bulma.mjs"
+    ],
+    "css": [
+        "css/columnControl.bulma.css",
+        "css/columnControl.bulma.min.css"
+    ],
+    "types": [
+        "types/columnControl.bulma.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/ColumnControl",
+    "last-tag": "0.0.1",
+    "last-sync": ""
+}

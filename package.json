@@ -1,0 +1,54 @@
+{
+    "name": "datatables.net-columncontrol-bm",
+    "description": "ColumnControl for DataTables with styling for [Bulma](https://bulma.io/)",
+    "main": "js/columnControl.bulma.js",
+    "module": "js/columnControl.bulma.mjs",
+    "style": "css/columnControl.bulma.css",
+    "types": "./types/columnControl.bulma.d.ts",
+    "version": "0.0.1",
+    "files": [
+        "css/**/*.css",
+        "js/**/*.js",
+        "js/**/*.mjs",
+        "types/**/*.d.ts"
+    ],
+    "keywords": [
+        "ColumnControl",
+ "search",
+ "filter",
+ "buttons",
+ "column visibility",
+        "Bulma",
+        "Datatables",
+        "jQuery",
+        "table",
+        "filter",
+        "sort"
+    ],
+    "dependencies": {
+        "datatables.net-columncontrol": "~0.0.1",
+        "datatables.net-bm": "~2.2",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DataTables/Dist-DataTables-ColumnControl-Bulma.git"
+    }
+}
