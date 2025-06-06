@@ -5,7 +5,7 @@
     "module": "js/columnControl.bulma.mjs",
     "style": "css/columnControl.bulma.css",
     "types": "./types/columnControl.bulma.d.ts",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -25,8 +25,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-columncontrol": "1.0.3",
-        "datatables.net-bm": "^2.3"
+        "datatables.net-columncontrol": "1.0.4",
+        "datatables.net-bm": "^2.3.2"
     },
     "moduleType": [
         "globals",
