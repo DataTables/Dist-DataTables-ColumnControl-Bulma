@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-columncontrol-bm",
     "description": "ColumnControl for DataTables with styling for [Bulma](https://bulma.io/)",
-    "main": "js/columnControl.bulma.js",
-    "module": "js/columnControl.bulma.mjs",
-    "style": "css/columnControl.bulma.css",
+    "main": "./js/columnControl.bulma.js",
+    "module": "./js/columnControl.bulma.mjs",
+    "style": "./css/columnControl.bulma.css",
     "types": "./types/columnControl.bulma.d.ts",
     "version": "2.0.2",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "ColumnControl",
@@ -38,5 +37,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/ColumnControl.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/columnControl.bulma.d.ts",
+            "import": "./js/columnControl.bulma.mjs",
+            "default": "./js/columnControl.bulma.mjs",
+            "require": "./js/columnControl.bulma.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/columnControl.bulma.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
