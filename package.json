@@ -41,9 +41,10 @@
     "exports": {
         ".": {
             "types": "./types/columnControl.bulma.d.ts",
+            "style": "./css/columnControl.bulma.css",
             "import": "./js/columnControl.bulma.mjs",
-            "default": "./js/columnControl.bulma.mjs",
-            "require": "./js/columnControl.bulma.js"
+            "require": "./js/columnControl.bulma.js",
+            "default": "./js/columnControl.bulma.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
